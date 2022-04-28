@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+height: 100vh;
+width: 100vw;
+max-height: 800px;
+max-width: 1280px;
+min-height: 600px;
+
+min-width: 1000px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 0 auto;
+background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
+}
+.container h1{
+  margin: 0 0 0 0;
+
+}
+.border{
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover{
+    border: 1px solid #fff;
+}
+
+.card{
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0{
+    background: url("whatsap\ img.jpg") center center no-repeat;
+    background-size: 300px;
+}
+.card0:hover{
+    background: url("whatsap\ img.jpg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h2{
+    opacity: 1;
+}
+.card0:hover .bi{
+    opacity: 1;
+}
+h2{
+    font-family: 'Helvetica Neue', Helvetica, Arial , sans-serif;
+    color: #b9a6a6;
+    margin: -470px -1247px 13px 1px;
+    /* opacity: 0; */
+    transition: opacity 1s;
+    font-size: 2.2rem;
+
+}
+.bi{
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.bi-github:hover{
+    color: black;
+    /* color: white; */
+
+}
+.icons .bi-linkedin:hover{
+    background: blue;
+    /* background-color: #5258cf; */
+}
+ .bi-twitter:hover{
+    color: blue;
+}
+.bi-instagram:hover{
+    /* color: black; */
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+     radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+      radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+       radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
+       radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+     linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.icons{
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+
+
